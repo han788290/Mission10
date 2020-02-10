@@ -1,0 +1,35 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#A1000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#ffff</item>
+
+    </style>
+
+    <!--  액션바 없애기  -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- TextInputLayout Style   -->
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorKeyBrown</item>
+    </style>
+
+    <!-- button Style  -->
+    <style name="ButtonTheme" parent="android:Widget.Button">
+        <item name="android:fontFamily">@font/test</item>
+        <item name="android:textColor">@color/colorKeyBrown</item>
+    </style>
+
+
+</resources>
